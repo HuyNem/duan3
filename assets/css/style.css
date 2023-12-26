@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    padding: 0px 60px;
+    align-items: center;
+}
+
+.header .header_menu {
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.header .header_menu a {
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+.header .header_menu a:hover {
+    background-color: rgb(218, 23, 208);
+}
